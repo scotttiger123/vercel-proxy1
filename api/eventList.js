@@ -3,7 +3,7 @@ export default async function handler(req, res) {
     const response = await fetch("https://app6.multitrack.in:8087/eventList", {
       method: "POST",
       headers: {
-        "Authorization": "Basic aXRyYWNrOml0cmFja3MyMDI1",
+        "Authorization": "Basic aXRyYWNrOkxlbm92b0AxOTg5",
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
